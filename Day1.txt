@@ -1,0 +1,11 @@
+Question: Tower of Hanoi
+algoritm:s
+1.declare a function name tower with four parameters
+2.void tower(int n,char start,char middle,char end)
+   if n==1
+     print disk from start to end
+   else
+     tower(n - 1, start, middle, end)     
+     move disk from start to end          
+     tower(n- 1, middle, end, start)
+3.End
